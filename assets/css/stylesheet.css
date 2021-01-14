@@ -134,13 +134,20 @@ body {
 .hero-right li:last-child img {
     max-width: 25px;
 }
+.image-box {
+  display: inline-block;
+  margin: -3px;
+  max-width: 16.77vw;
+}
+.speaker-imgs {
+  max-width: 100%;
+}
 
 /* --- --- --- 2.2 Spacers --- --- ---*/
 
 /* --- --- --- 2.3 Containers --- --- ---*/
 
 .wrapper {
-    position: relative;
     width: 100vw;
     padding: 0;
 }
