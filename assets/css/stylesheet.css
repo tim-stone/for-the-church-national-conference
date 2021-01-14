@@ -19,6 +19,7 @@ Text Domain: For The Church
 *
 * - 1.0 Text Formatting
 * - - 1.1 Main text styles
+* - - 1.2 Text Elements
 * - 2.0 Div Formatting
 * - - 2.1 Main Div styles
 * - - 2.2 Spacers
@@ -37,25 +38,56 @@ Text Domain: For The Church
 
 /* --- --- --- 1.1 Main Text Styles --- --- ---*/
 
+body {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
 .hero-heading {
     color: #fff;
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 25px;
     margin: 0px;
 }
 .hero-subtitle {
     color: #b88d2d;
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 14px;
 }
 .hero-hash {
     display: inline-block;
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 14px;
     color: #fff;
     margin: 0px 0px 5px 20px;
     position: relative;
     top: -5px;
+}
+.gold-header {
+  font-size: 37px;
+  font-weight: 600;
+  text-align: center;
+  color: #b88d2d;
+  text-transform: uppercase;
+}
+.white-font {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* --- --- --- 1.2 Text Elements --- --- ---*/
+
+.gold-button {
+  color: #b88d2d;
+  border: 1px solid #b88d2d;
+  padding: 15px 10px;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  max-width: 20%;
+  text-decoration: none;
+}
+.gold-button:hover {
+  color: #ecb230;
+  border: 1px solid #ecb230;
 }
 
 /* --------- --- --- 2.0 Div Formatting --- --- --------- */
@@ -63,7 +95,7 @@ Text Domain: For The Church
 /* --- --- --- 2.1 Main Div Styles --- --- ---*/
 
 .main-hero {
-    background-image: url('../../images/main-hero.png');
+    background-image: url('../../images/banners/main-hero.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,6 +153,15 @@ Text Domain: For The Church
 }
 .logo-container {
     display: inline-block;
+}
+.blue-container {
+  background-color: #003a5d;
+}
+.center-container {
+  padding: 100px 0px;
+  display: block;
+  margin: auto;
+  max-width: 40%;
 }
 
 /* --- --- --- 2.4 Top Nav --- --- ---*/
