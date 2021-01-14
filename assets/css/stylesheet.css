@@ -6,7 +6,7 @@
 Name: For The Church National Conference
 Author: Tim Stone
 Author URI: http://tjstone.me
-Description: This theme is developed for the 2019 landing page for the afformentioned conference.
+Description: This theme is developed for the 2021 landing page for the afformentioned conference.
 Version: 1.0
 License: Private use
 Text Domain: For The Church
@@ -36,3 +36,141 @@ Text Domain: For The Church
 /* --------- --- --- 1.0 Text Formatting --- --- --------- */
 
 /* --- --- --- 1.1 Main Text Styles --- --- ---*/
+
+.hero-heading {
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+.hero-subtitle {
+    color: #b88d2d;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+.hero-hash {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 0px 0px 5px 20px;
+    position: relative;
+    top: -5px;
+}
+
+/* --------- --- --- 2.0 Div Formatting --- --- --------- */
+
+/* --- --- --- 2.1 Main Div Styles --- --- ---*/
+
+.main-hero {
+    background-image: url('../../images/main-hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.hero-logo {
+    margin: auto;
+    display: block;
+    max-width: 35%;
+    padding: 20vh;
+}
+.hero-row {
+    display: block;
+    padding: 50px;
+}
+.hero-left {
+    display: inline-block;
+    float: left;
+}
+.hero-right {
+    display: inline-block;
+    float: right;
+}
+.hero-right ul {
+    display: inline-block;
+    padding-top: 25px;
+}
+.hero-right li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+.hero-right li img {
+    max-width: 20px;
+}
+.hero-right li:last-child img {
+    max-width: 25px;
+}
+
+/* --- --- --- 2.2 Spacers --- --- ---*/
+
+/* --- --- --- 2.3 Containers --- --- ---*/
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    padding: 0;
+}
+
+.nav-container {
+    min-width: 100vw;
+    max-height: 5%;
+    background-color: transparent;
+    position: absolute;
+}
+.logo-container {
+    display: inline-block;
+}
+
+/* --- --- --- 2.4 Top Nav --- --- ---*/
+
+.nav-logo {
+    max-width: 40%;
+    padding: 30px 50px;
+}
+.nav-float {
+    float: right;
+    padding: 50px;
+}
+.main-nav {
+    display: inline-block;
+}
+.secondary-nav {
+    display: inline-block;
+}
+.main-nav li {
+    display: inline-block;
+}
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    padding: 7px;
+}
+.main-nav li a:hover {
+    color: #ddd;
+}
+.nav-btn {
+    color: #b88d2d;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 1px solid #b88d2d;
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+.nav-btn:hover {
+    color: #ecb230;
+    border: 1px solid #ecb230;
+}
+
+
+
+
+
+
+
+
+
+/* --- --- --- End of Style --- --- --- */
