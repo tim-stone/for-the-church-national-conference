@@ -7,7 +7,7 @@ Name: For The Church National Conference
 Author: Tim Stone
 Author URI: http://tjstone.me
 Description: This theme is developed for the 2021 landing page for the afformentioned conference.
-Version: 1.0
+Version: 1.07
 License: Private use
 Text Domain: For The Church
 *
@@ -22,9 +22,9 @@ Text Domain: For The Church
 * - - 1.2 Text Elements
 * - 2.0 Div Formatting
 * - - 2.1 Main Div styles
-* - - 2.2 Spacers
-* - - 2.3 Containers
-* - - 2.4 Top Nav
+* - - - 2.1.1 Speakers Overlay Styles
+* - - 2.2 Containers
+* - - 2.3 Top Nav
 * - 3.0 Media Queries
 * - - 3.1 Small displays
 * - - 3.2 Tablets
@@ -71,6 +71,12 @@ body {
   text-align: center;
   font-size: 20px;
 }
+.speaker-name {
+  display:none;
+}
+.speaker-name-last {
+  display:none;
+}
 .black-header {
   text-align: center;
   text-transform: uppercase;
@@ -101,6 +107,44 @@ body {
 }
 .schedule-container li {
   list-style-type: none;
+}
+.white-header {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0px;
+  padding: 50px;
+}
+.price {
+  font-size: 35px;
+  letter-spacing: 0px;
+}
+.registration-subtitle {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.registration-secondary {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+.dollar {
+  font-size: 22px;
+}
+.footer-container .white-header {
+  padding: 60px 0px;
 }
 
 /* --- --- --- 1.2 Text Elements --- --- ---*/
@@ -181,11 +225,214 @@ body {
   padding: 15px 15px;
   margin: -1px;
 }
+.registration-img {
+  display: block;
+  margin: auto;
+  max-width: 70%;
+  padding: 100px;
+}
 
+/* --- --- --- 2.1.1 Speaker Overlay Styles --- --- ---*/
 
-/* --- --- --- 2.2 Spacers --- --- ---*/
+.speaker-overlay {
+  min-height: 19vw;
+  min-width: 17vw;
+  background-size: cover;
+}
+.greear {
+  background-image: url("../../images/speakers/greear.jpg");
+}
+.greear:hover {
+  background: url("../../images/speakers/greear.jpg"), #003a5d75;
+  background-blend-mode: overlay;
+  background-size: cover;
+  max-height: 19vw;
+  max-width: 17vw;
+  cursor: pointer;
+}
+.greear:hover .speaker-name{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 30.75vh 6vw 0vh 7vw;
+  display: block;
+}
+.greear:hover .speaker-name-last{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 0vh 7vw 2vh 7vw;
+  margin: 0px;
+  display: block;
+}
+.loritts {
+  background-image: url("../../images/speakers/loritts.jpg")
+}
+.loritts:hover {
+  background: url("../../images/speakers/loritts.jpg"), #003a5d75;
+  background-blend-mode: overlay;
+  background-size: cover;
+  max-height: 19vw;
+  max-width: 17vw;
+  cursor: pointer;
+}
+.loritts:hover .speaker-name{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 30.75vh 6vw 0vh 7vw;
+  display: block;
+}
+.loritts:hover .speaker-name-last{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 0vh 7vw 2vh 7vw;
+  margin: 0px;
+  display: block;
+}
+.merida {
+  background-image: url("../../images/speakers/merida.jpg")
+}
+.merida:hover {
+  background: url("../../images/speakers/merida.jpg"), #003a5d75;
+  background-blend-mode: overlay;
+  background-size: cover;
+  max-height: 19vw;
+  max-width: 17vw;
+  cursor: pointer;
+}
+.merida:hover .speaker-name{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 30.75vh 6vw 0vh 7vw;
+  display: block;
+}
+.merida:hover .speaker-name-last{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 0vh 7vw 2vh 7vw;
+  margin: 0px;
+  display: block;
+}
+.allen {
+  background-image: url("../../images/speakers/allen.jpg")
+}
+.allen:hover {
+  background: url("../../images/speakers/allen.jpg"), #003a5d75;
+  background-blend-mode: overlay;
+  background-size: cover;
+  max-height: 19vw;
+  max-width: 17vw;
+  cursor: pointer;
+}
+.allen:hover .speaker-name{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 30.75vh 6vw 0vh 7vw;
+  display: block;
+}
+.allen:hover .speaker-name-last{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 0vh 7vw 2vh 7vw;
+  margin: 0px;
+  display: block;
+}
+.strachan {
+  background-image: url("../../images/speakers/strachan.jpg")
+}
+.strachan:hover {
+  background: url("../../images/speakers/strachan.jpg"), #003a5d75;
+  background-blend-mode: overlay;
+  background-size: cover;
+  max-height: 19vw;
+  max-width: 17vw;
+  cursor: pointer;
+}
+.strachan:hover .speaker-name{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 30.75vh 6vw 0vh 7vw;
+  display: block;
+}
+.strachan:hover .speaker-name-last{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 0vh 7vw 2vh 7vw;
+  margin: 0px;
+  display: block;
+}
+.wilson {
+  background-image: url("../../images/speakers/wilson.jpg")
+}
+.wilson:hover {
+  background: url("../../images/speakers/wilson.jpg"), #003a5d75;
+  background-blend-mode: overlay;
+  background-size: cover;
+  max-height: 19vw;
+  max-width: 17vw;
+  cursor: pointer;
+}
+.wilson:hover .speaker-name{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 30.75vh 6vw 0vh 7vw;
+  display: block;
+}
+.wilson:hover .speaker-name-last{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center !important;
+  text-transform: uppercase;
+  padding: 0vh 7vw 2vh 7vw;
+  margin: 0px;
+  display: block;
+}
 
-/* --- --- --- 2.3 Containers --- --- ---*/
+/* --- --- --- 2.2 Containers --- --- ---*/
 
 .wrapper {
     width: 100vw;
@@ -226,8 +473,26 @@ body {
   background-color: #fff;
   padding: 100px 0px 150px 150px;
 }
+.registration-container {
+  background-image: url('../../images/banners/registration.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.footer-container {
+  background-color: #645c59;
+}
+.columns {
+  padding: 0px;
+}
+.col-3 {
+  display: inline-block;
+  margin: auto;
+  min-width: 30%;
+}
 
-/* --- --- --- 2.4 Top Nav --- --- ---*/
+/* --- --- --- 2.3 Top Nav --- --- ---*/
 
 .nav-logo {
     max-width: 40%;
