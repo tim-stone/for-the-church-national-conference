@@ -238,6 +238,7 @@ body {
   min-height: 19vw;
   min-width: 17vw;
   background-size: cover;
+  overflow: hidden;
 }
 .greear {
   background-image: url("../../images/speakers/greear.jpg");
@@ -250,29 +251,31 @@ body {
   max-width: 17vw;
   cursor: pointer;
 }
-.greear:hover .speaker-name{
+.greear:hover .speaker-name {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 30.75vh 6vw 0vh 7vw;
+  padding: 80% 10% 0% 15%;
   display: block;
 }
-.greear:hover .speaker-name-last{
+.greear:hover .speaker-name-last {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 0vh 7vw 2vh 7vw;
+  padding: 0% 10% 0% 15%;
   margin: 0px;
   display: block;
 }
 .loritts {
-  background-image: url("../../images/speakers/loritts.jpg")
+  background-image: url("../../images/speakers/loritts.jpg");
 }
 .loritts:hover {
   background: url("../../images/speakers/loritts.jpg"), #003a5d75;
@@ -282,29 +285,31 @@ body {
   max-width: 17vw;
   cursor: pointer;
 }
-.loritts:hover .speaker-name{
+.loritts:hover .speaker-name {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 30.75vh 6vw 0vh 7vw;
+  padding: 80% 10% 0% 15%;
   display: block;
 }
-.loritts:hover .speaker-name-last{
+.loritts:hover .speaker-name-last {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 0vh 7vw 2vh 7vw;
+  padding: 0% 10% 0% 15%;
   margin: 0px;
   display: block;
 }
 .merida {
-  background-image: url("../../images/speakers/merida.jpg")
+  background-image: url("../../images/speakers/merida.jpg");
 }
 .merida:hover {
   background: url("../../images/speakers/merida.jpg"), #003a5d75;
@@ -314,29 +319,31 @@ body {
   max-width: 17vw;
   cursor: pointer;
 }
-.merida:hover .speaker-name{
+.merida:hover .speaker-name {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 30.75vh 6vw 0vh 7vw;
+  padding: 80% 10% 0% 15%;
   display: block;
 }
-.merida:hover .speaker-name-last{
+.merida:hover .speaker-name-last {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 0vh 7vw 2vh 7vw;
+  padding: 0% 10% 0% 15%;
   margin: 0px;
   display: block;
 }
 .allen {
-  background-image: url("../../images/speakers/allen.jpg")
+  background-image: url("../../images/speakers/allen.jpg");
 }
 .allen:hover {
   background: url("../../images/speakers/allen.jpg"), #003a5d75;
@@ -346,29 +353,32 @@ body {
   max-width: 17vw;
   cursor: pointer;
 }
-.allen:hover .speaker-name{
+.allen:hover .speaker-name {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 23px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 30.75vh 6vw 0vh 7vw;
+  padding: 80% 10% 0% 15%;
+  margin: 0px;
   display: block;
 }
-.allen:hover .speaker-name-last{
+.allen:hover .speaker-name-last {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 23px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 0vh 7vw 2vh 7vw;
+  padding: 0% 10% 0% 15%;
   margin: 0px;
   display: block;
 }
 .strachan {
-  background-image: url("../../images/speakers/strachan.jpg")
+  background-image: url("../../images/speakers/strachan.jpg");
 }
 .strachan:hover {
   background: url("../../images/speakers/strachan.jpg"), #003a5d75;
@@ -378,29 +388,31 @@ body {
   max-width: 17vw;
   cursor: pointer;
 }
-.strachan:hover .speaker-name{
+.strachan:hover .speaker-name {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 30.75vh 6vw 0vh 7vw;
+  padding: 80% 10% 0% 15%;
   display: block;
 }
-.strachan:hover .speaker-name-last{
+.strachan:hover .speaker-name-last {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 0vh 7vw 2vh 7vw;
+  padding: 0% 10% 0% 15%;
   margin: 0px;
   display: block;
 }
 .wilson {
-  background-image: url("../../images/speakers/wilson.jpg")
+  background-image: url("../../images/speakers/wilson.jpg");
 }
 .wilson:hover {
   background: url("../../images/speakers/wilson.jpg"), #003a5d75;
@@ -410,24 +422,26 @@ body {
   max-width: 17vw;
   cursor: pointer;
 }
-.wilson:hover .speaker-name{
+.wilson:hover .speaker-name {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 30.75vh 6vw 0vh 7vw;
+  padding: 80% 10% 0% 15%;
   display: block;
 }
-.wilson:hover .speaker-name-last{
+.wilson:hover .speaker-name-last {
   color: #fff;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 6px;
   text-align: center !important;
   text-transform: uppercase;
-  padding: 0vh 7vw 2vh 7vw;
+  padding: 0% 10% 0% 15%;
   margin: 0px;
   display: block;
 }
