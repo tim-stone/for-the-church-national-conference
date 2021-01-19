@@ -23,6 +23,7 @@ Text Domain: For The Church
 * - 2.0 Div Formatting
 * - - 2.1 Main Div styles
 * - - - 2.1.1 Speakers Overlay Styles
+* - - - 2.1.2 Speakers Modal Styles
 * - - 2.2 Containers
 * - - 2.3 Top Nav
 * - 3.0 Media Queries
@@ -444,6 +445,57 @@ body {
   padding: 0% 10% 0% 15%;
   margin: 0px;
   display: block;
+}
+
+/* --- --- --- 2.1.2 Speaker Modal Styles --- --- --- */
+
+.speakers-description-greear, .speakers-description-loritts, .speakers-description-merida, .speakers-description-allen, .speakers-description-strachan, .speakers-description-wilson {
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #282828cf;
+  z-index: 99999;
+  pointer-events: auto;
+  display:none;
+  overflow-y:auto;
+  -webkit-overflow-scrolling: touch;
+}
+.speakers-description-greear .description-container, .speakers-description-loritts .description-container, .speakers-description-merida .description-container, .speakers-description-allen .description-container, .speakers-description-strachan .description-container, .speakers-description-wilson .description-container {
+  max-width: 100%;
+  position: relative;
+  top: 10px;
+  margin: 5% 10%;
+  padding: 5px 20px 13px 20px;
+  box-shadow: 0 0 10px #000000;
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  display: block;
+  pointer-events: auto;
+}
+.top-section {
+  float: right;
+  display: block;
+}
+.close-img {
+  border: none;
+  cursor: pointer;
+}
+.close-img {
+  margin-top: 25px;
+  max-width: 60%;
+}
+.main-content {
+  display: block;
+  padding: 10% 25%;
+}
+.name {
+  color: #fff;
+}
+.description {
+  color: #fff;
 }
 
 /* --- --- --- 2.2 Containers --- --- ---*/
