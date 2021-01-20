@@ -160,7 +160,7 @@ body {
   display: block;
   text-align: center;
   font-weight: 600;
-  max-width: 20%;
+  max-width: 25%;
   text-decoration: none;
 }
 .gold-button:hover {
@@ -612,13 +612,375 @@ body {
     color: #ecb230;
     border: 1px solid #ecb230;
 }
+.mobile-nav {
+    display: none;
+}
+.mobile-nav a {
+    color: #b88d2d;
+    font-size: 15px;
+}
+.mobile-nav a:hover {
+    color: #fff;
+}
+.fa {
+    font-size: 20px !important;
+}
 
+/* --------- --- --- 3.0 Media Queries --- --- --------- */
 
+/* --- --- --- 3.1 Small Displays --- --- --- */
 
+ @media screen and (max-width: 1024px) and (min-width: 769px){
+    .logo-container {
+        max-width: 50%;
+    }
+    .hero-row {
+        padding: 70px;
+    }
+    .center-container {
+        max-width: 70%;
+    }
+    .gold-button {
+        max-width: 35%;
+    }
+    .schedule-header {
+        font-size: 17px;
+    }
+    .schedule-subtitle {
+        font-size: 12px;
+    }
+ }
 
+/* --- --- --- 3.2 Tablets --- --- --- */
 
+@media screen and (max-width: 768px) and (min-width: 426px){
+    .logo-container {
+        max-width: 45%;
+    }
+    .nav-logo {
+        max-width: 55%;
+    }
+    .nav-float {
+        padding: 45px 15px;
+        max-width: 50%;
+    }
+    .hero-logo {
+        padding: 40vh;
+    }
+    .hero-row {
+        padding: 70px 25px;
+    }
+    .center-container {
+        max-width: 90%;
+    }
+    .image-box {
+        max-width: 17.77vw;
+    }
+    .schedule-header {
+        font-size: 16px;
+    }
+    .schedule-subtitle {
+        font-size: 12px;
+    }
+    .schedule-content-container {
+        padding: 50px 0px 50px 100px;
+    }
+    .footer-container .white-header {
+        font-size: 20px;
+    }
+}
 
+/* --- --- --- 3.3 Large Phones --- --- --- */
 
+@media screen and (max-width: 425px) and (min-width: 376px) {
+    .main-nav, .secondary-nav {
+        display: none;
+    }
+    .mobile-nav {
+        float: right;
+        display: block;
+    }
+    .logo-container {
+        max-width: 70%;
+    }
+    .nav-logo {
+        max-width: 65%;
+    }
+    .nav-float {
+        padding: 45px 25px;
+    }
+    .hero-logo {
+        padding: 38vh;
+    }
+    .hero-row {
+        padding: 50px 15px;
+    }
+    .hero-left, .hero-right {
+        display: block;
+        float: none;
+    }
+    .hero-heading {
+        font-size: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    .hero-subtitle {
+        font-size: 15px;
+        text-align: center;
+    }
+    .hero-right ul {
+        display: block;
+        padding-top: 5px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .hero-hash {
+        display: block;
+        text-align: center;
+        margin: 0px;
+    }
+    .center-container {
+        max-width: 75%;
+    }
+    .gold-button {
+        max-width: 50%;
+    }
+    .speakers-container {
+        margin-bottom: 0px;
+    }
+    .image-box {
+        display: block;
+        max-width: 100%;
+    }
+    .speaker-overlay {
+        min-height: 135vh;
+    }
+    .main-content {
+        padding: 10%;
+    }
+    .schedule-tabs {
+        padding-bottom: 2px;
+    }
+    .schedule-item {
+        display: block;
+        border: 2px solid #272727;
+    }
+    .schedule-header {
+        font-size: 18px;
+    }
+    .schedule-subtitle {
+        font-size: 13px;
+    }
+    .schedule-content-container {
+        padding: 50px 0px 50px 15px;
+    }
+    .col-3 {
+        display: block;
+    }
+    .registration-img {
+        padding: 50px 0px;
+    }
+    .footer-container .white-header {
+        font-size: 12px;
+    }
+}
+
+/* --- --- --- 3.4 Small Phones --- --- --- */
+
+@media screen and (max-width: 375px) and (min-width: 321px) {
+    .main-nav, .secondary-nav {
+        display: none;
+    }
+    .mobile-nav {
+        float: right;
+        display: block;
+    }
+    .logo-container {
+        max-width: 70%;
+    }
+    .nav-logo {
+        max-width: 65%;
+        padding: 30px 15px;
+    }
+    .nav-float {
+        padding: 45px 25px;
+    }
+    .hero-logo {
+        padding: 33vh;
+    }
+    .hero-row {
+        padding: 50px 15px;
+    }
+    .hero-left, .hero-right {
+        display: block;
+        float: none;
+    }
+    .hero-heading {
+        font-size: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    .hero-subtitle {
+        font-size: 15px;
+        text-align: center;
+    }
+    .hero-right ul {
+        display: block;
+        padding-top: 5px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .hero-hash {
+        display: block;
+        text-align: center;
+        margin: 0px;
+    }
+    .center-container {
+        max-width: 75%;
+    }
+    .gold-button {
+        max-width: 50%;
+    }
+    .speakers-container {
+        margin-bottom: 0px;
+    }
+    .image-box {
+        display: block;
+        max-width: 100%;
+    }
+    .speaker-overlay {
+        min-height: 135vh;
+    }
+    .main-content {
+        padding: 10%;
+    }
+    .schedule-tabs {
+        padding-bottom: 2px;
+    }
+    .schedule-item {
+        display: block;
+        border: 2px solid #272727;
+    }
+    .schedule-header {
+        font-size: 18px;
+    }
+    .schedule-subtitle {
+        font-size: 13px;
+    }
+    .schedule-content-container {
+        padding: 50px 0px 50px 15px;
+    }
+    .col-3 {
+        display: block;
+    }
+    .registration-img {
+        padding: 50px 0px;
+    }
+    .footer-container .white-header {
+        font-size: 12px;
+        padding: 50px 40px;
+    }
+}
+
+/* --- --- --- 3.4 Small Phones --- --- --- */
+
+@media only screen and (max-width: 320px) {
+    .main-nav, .secondary-nav {
+        display: none;
+    }
+    .mobile-nav {
+        float: right;
+        display: block;
+    }
+    .logo-container {
+        max-width: 70%;
+    }
+    .nav-logo {
+        max-width: 65%;
+        padding: 30px 15px;
+    }
+    .nav-float {
+        padding: 40px 25px;
+    }
+    .hero-logo {
+        padding: 29vh;
+    }
+    .hero-row {
+        padding: 50px 15px;
+    }
+    .hero-left, .hero-right {
+        display: block;
+        float: none;
+    }
+    .hero-heading {
+        font-size: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    .hero-subtitle {
+        font-size: 15px;
+        text-align: center;
+    }
+    .hero-right ul {
+        display: block;
+        padding-top: 5px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .hero-hash {
+        display: block;
+        text-align: center;
+        margin: 0px;
+    }
+    .center-container {
+        max-width: 75%;
+    }
+    .gold-button {
+        max-width: 70%;
+    }
+    .speakers-container {
+        margin-bottom: 0px;
+    }
+    .image-box {
+        display: block;
+        max-width: 100%;
+    }
+    .speaker-overlay {
+        min-height: 135vh;
+    }
+    .main-content {
+        padding: 10%;
+    }
+    .schedule-tabs {
+        padding-bottom: 2px;
+    }
+    .schedule-item {
+        display: block;
+        border: 2px solid #272727;
+    }
+    .schedule-header {
+        font-size: 18px;
+    }
+    .schedule-subtitle {
+        font-size: 13px;
+    }
+    .schedule-content-container {
+        padding: 50px 5px 50px 15px;
+    }
+    .white-header {
+        padding: 15px;
+    }
+    .col-3 {
+        display: block;
+    }
+    .registration-img {
+        padding: 50px 0px;
+    }
+    .footer-container .white-header {
+        font-size: 12px;
+        padding: 50px 40px;
+    }
+}
 
 
 /* --- --- --- End of Style --- --- --- */
