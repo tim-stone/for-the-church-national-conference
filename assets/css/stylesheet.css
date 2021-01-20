@@ -28,11 +28,12 @@ Text Domain: For The Church
 * - - 2.2 Containers
 * - - 2.3 Top Nav
 * - 3.0 Media Queries
-* - - 3.1 Small displays
-* - - 3.2 Tablets
-* - - 3.3 Large phones
-* - - 3.4 Standard phones
-* - - 3.5 Small phones
+* - - 3.1 Large Laptops
+* - - 3.2 Small Laptops/Large Tablets
+* - - 3.3 Tablets
+* - - 3.4 Large phones
+* - - 3.5 Standard phones
+* - - 3.6 Small phones
 *
 */
 
@@ -628,7 +629,15 @@ body {
 
 /* --------- --- --- 3.0 Media Queries --- --- --------- */
 
-/* --- --- --- 3.1 Small Displays --- --- --- */
+/* --- --- --- 3.1 Large Laptops --- --- --- */
+
+@media screen and (max-width: 1440px) and (min-width: 1025){
+    .image-box {
+        max-width: 16.9vw;
+    }
+}
+
+/* --- --- --- 3.2 Small Laptops/Large Tablets --- --- --- */
 
  @media screen and (max-width: 1024px) and (min-width: 769px){
     .logo-container {
@@ -643,6 +652,9 @@ body {
     .gold-button {
         max-width: 35%;
     }
+    .image-box {
+        max-width: 16.9vw;
+    }
     .schedule-header {
         font-size: 17px;
     }
@@ -651,7 +663,7 @@ body {
     }
  }
 
-/* --- --- --- 3.2 Tablets --- --- --- */
+/* --- --- --- 3.3 Tablets --- --- --- */
 
 @media screen and (max-width: 768px) and (min-width: 426px){
     .logo-container {
@@ -690,7 +702,7 @@ body {
     }
 }
 
-/* --- --- --- 3.3 Large Phones --- --- --- */
+/* --- --- --- 3.4 Large Phones --- --- --- */
 
 @media screen and (max-width: 425px) and (min-width: 376px) {
     .main-nav, .secondary-nav {
@@ -785,7 +797,7 @@ body {
     }
 }
 
-/* --- --- --- 3.4 Small Phones --- --- --- */
+/* --- --- --- 3.5 Standard Phones --- --- --- */
 
 @media screen and (max-width: 375px) and (min-width: 321px) {
     .main-nav, .secondary-nav {
@@ -882,7 +894,7 @@ body {
     }
 }
 
-/* --- --- --- 3.4 Small Phones --- --- --- */
+/* --- --- --- 3.6 Small Phones --- --- --- */
 
 @media only screen and (max-width: 320px) {
     .main-nav, .secondary-nav {
