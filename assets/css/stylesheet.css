@@ -618,13 +618,34 @@ body {
 }
 .mobile-nav a {
     color: #b88d2d;
-    font-size: 15px;
+    font-size: 18px;
 }
 .mobile-nav a:hover {
-    color: #fff;
+    color: #272727;
 }
 .fa {
     font-size: 20px !important;
+}
+.mobile-container {
+    display: none;
+    background-color: #fff;
+    padding: 137% 1%;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    right: 0px;
+    bottom: 0px;
+    min-height: 100%;
+    margin: auto;
+}
+.mobile-container ul {
+    list-style: none;
+    margin: auto;
+}
+.mobile-container ul li {
+    margin-bottom: 1rem;
+    padding: 15px;
+    text-transform: none;
 }
 
 /* --------- --- --- 3.0 Media Queries --- --- --------- */
