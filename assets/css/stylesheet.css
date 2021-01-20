@@ -698,7 +698,7 @@ body {
         max-width: 50%;
     }
     .hero-logo {
-        padding: 40vh;
+        padding: 28vh;
     }
     .hero-row {
         padding: 70px 25px;
@@ -743,7 +743,7 @@ body {
         padding: 45px 25px;
     }
     .hero-logo {
-        padding: 38vh;
+        padding: 30vh 15vw;
     }
     .hero-row {
         padding: 50px 15px;
@@ -784,9 +784,11 @@ body {
     .image-box {
         display: block;
         max-width: 100%;
+        margin: 0px;
     }
     .speaker-overlay {
-        min-height: 135vh;
+        max-height: 135vh;
+        min-height: 54vh;
     }
     .main-content {
         padding: 10%;
@@ -839,7 +841,7 @@ body {
         padding: 45px 25px;
     }
     .hero-logo {
-        padding: 33vh;
+        padding: 33vh 15vw;
     }
     .hero-row {
         padding: 50px 15px;
@@ -880,9 +882,11 @@ body {
     .image-box {
         display: block;
         max-width: 100%;
+        margin: 0px;
     }
     .speaker-overlay {
-        min-height: 135vh;
+        max-height: 135vh;
+        min-height: 54vh;
     }
     .main-content {
         padding: 10%;
@@ -936,7 +940,7 @@ body {
         padding: 40px 25px;
     }
     .hero-logo {
-        padding: 29vh;
+        padding: 29vh 15vw;
     }
     .hero-row {
         padding: 50px 15px;
@@ -977,9 +981,11 @@ body {
     .image-box {
         display: block;
         max-width: 100%;
+        margin: 0px;
     }
     .speaker-overlay {
-        min-height: 135vh;
+        max-height: 135vh;
+        min-height: 41vh;
     }
     .main-content {
         padding: 10%;
