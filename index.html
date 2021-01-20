@@ -16,7 +16,7 @@
 
     <title>For The Church National Conference</title>
       <meta charset="utf-8" />
-      <meta name="viewport" content="wideth=device-width, initial-scale=1, user-scalable=no" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <meta name="description" content="The For The Church National Conference is a vital part of Midwestern Serminary and College's aim to train ministry leaders for the magnification of God through the building up of the local church. This is the reason For The Church exists. We pray this two-day event will be a time of refreshing and rejoicing for you and your ministry team." />
       <meta property="og:locale" content="en_US" />
 	  <meta property="og:type" content="website" />
@@ -51,7 +51,7 @@
         <!-- Main Navigation -->
         <div class="nav-container">
             <div class="logo-container">
-                <a href="/"><img class="nav-logo" src="images/logos/logo.png" /></a>
+                <a href="/"><img class="nav-logo" src="images/logos/logo.png" alt="For The Church National Conference Logo" /></a>
             </div>
             <div class="nav-float">
                 <div class="main-nav">
@@ -70,10 +70,10 @@
                     </a>
                     <div class="mobile-container" id="mobile-container">
                         <ul>
-                            <li><a class="mobile-links" href="#about">About</a></li>
-                            <li><a class="mobile-links" href="#speakers">Speakers</a></li>
-                            <li><a class="mobile-links" href="#schedule">Schedule</a></li>
-                            <li><a class="mobile-links" href="#register">Register</a></li>
+                            <li><a id="mobile-links-1" href="#about">About</a></li>
+                            <li><a id="mobile-links-2" href="#speakers">Speakers</a></li>
+                            <li><a id="mobile-links-3" href="#schedule">Schedule</a></li>
+                            <li><a id="mobile-links-4" href="#register">Register</a></li>
                         </ul>
                     </div>
                 </div>
@@ -93,10 +93,10 @@
                 </div>
                 <div class="hero-right">
                     <ul>
-                        <li><a href="https://twitter.com/forthechurch" class="social-link" target="_blank"><img src="images/icons/twitter.png" /></a></li>
-                        <li><a href="https://www.instagram.com/_forthechurch/?hl=en" class="social-link" target="_blank"><img src="images/icons/instagram.png" /></a></li>
-                        <li><a href="https://www.facebook.com/forthechurch" class="social-link" target="_blank"><img src="images/icons/facebook.png" /></a></li>
-                        <li><a href="https://www.youtube.com/user/MBTSOnline" class="social-link" target="_blank"><img src="images/icons/youtube.png" /></a></li>
+                        <li><a href="https://twitter.com/forthechurch" class="social-link" target="_blank"><img src="images/icons/twitter.png" alt="twitter link" /></a></li>
+                        <li><a href="https://www.instagram.com/_forthechurch/?hl=en" class="social-link" target="_blank"><img src="images/icons/instagram.png" alt="instagram link" /></a></li>
+                        <li><a href="https://www.facebook.com/forthechurch" class="social-link" target="_blank"><img src="images/icons/facebook.png" alt="facebook link" /></a></li>
+                        <li><a href="https://www.youtube.com/user/MBTSOnline" class="social-link" target="_blank"><img src="images/icons/youtube.png" alt="youtube link" /></a></li>
                     </ul>
                     <h3 class="hero-hash">#FTC2021</h3>
                 </div>
@@ -117,36 +117,42 @@
         <!-- Speakers Section -->
         <div class="speakers-container" id="speakers">
           <div class="image-box" id="overlay-greear">
+            <span role="img" aria-label="J.D. Greear conference speaker click for more info"></span>
             <div class="speaker-overlay greear">
               <h3 class="speaker-name">J.D.</h3>
               <h3 class="speaker-name-last">Greear</h3>
             </div>
           </div>
           <div class="image-box" id="overlay-loritts">
+            <span role="img" aria-label="Crawford Loritts conference speaker click for more info"></span>
             <div class="speaker-overlay loritts">
               <h3 class="speaker-name">Crawford</h3>
               <h3 class="speaker-name-last">Loritts</h3>
             </div>
           </div>
           <div class="image-box" id="overlay-merida">
+            <span role="img" aria-label="Tony Merida conference speaker click for more info"></span>
             <div class="speaker-overlay merida">
               <h3 class="speaker-name">Tony</h3>
               <h3 class="speaker-name-last">Merida</h3>
             </div>
           </div>
           <div class="image-box" id="overlay-allen">
+            <span role="img" aria-label="Jason Allen conference speaker click for more info"></span>
             <div class="speaker-overlay allen">
               <h3 class="speaker-name">Jason</h3>
               <h3 class="speaker-name-last">Allen</h3>
             </div>
           </div>
           <div class="image-box" id="overlay-strachan">
+            <span role="img" aria-label="Owen Strachan conference speaker click for more info"></span>
             <div class="speaker-overlay strachan">
               <h3 class="speaker-name">Owen</h3>
               <h3 class="speaker-name-last">Strachan</h3>
             </div>
           </div>
           <div class="image-box" id="overlay-wilson">
+            <span role="img" aria-label="Jared Wilson conference speaker click for more info"></span>
             <div class="speaker-overlay wilson">
               <h3 class="speaker-name">Jared</h3>
               <h3 class="speaker-name-last">Wilson</h3>
@@ -351,19 +357,7 @@
     <!-- End Site Wrapper -->
 
     <!-- Mobile Menu Function -->
-    <script>
-    function mobileToggle() {
-        var x = document.getElementById("mobile-container");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        document.getElementsByClassName("mobile-links").addEventListener("click", function(){
-            x.style.display = "none";
-        });
-        }
-    </script>
+    <script src="assets/js/mobile-menu.js"></script>
     <!-- End Mobile Menu Function -->
 
   </body>
